@@ -3,7 +3,7 @@
 namespace TinyGameBase
 {
 	public class GameWindow : Window
-    {
+	{
 		private readonly Game _game;
 		private readonly GameElement _gameElement;
 		public GameWindow()
