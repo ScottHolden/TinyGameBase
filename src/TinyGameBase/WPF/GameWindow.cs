@@ -2,14 +2,12 @@
 
 namespace TinyGameBase
 {
-	public partial class MainWindow : Window
-	{
+	public class GameWindow : Window
+    {
 		private readonly Game _game;
 		private readonly GameElement _gameElement;
-		public MainWindow()
+		public GameWindow()
 		{
-			InitializeComponent();
-
 			this.Title = "Tiny Game Base";
 
 			_game = new Game();

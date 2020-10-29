@@ -7,6 +7,7 @@ namespace TinyGameBase
 		// Called in 16ms steps
 		public void Update()
 		{
+
 		}
 
 		// Called as fast as posible, normally 60fps
